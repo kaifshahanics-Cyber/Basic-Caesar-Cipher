@@ -1,6 +1,6 @@
 # Simple Caesar Cipher 🔐
 
-Hi, I'm Kaif! I am a first-year Computer Science student currently doing an intensive self-study year at my local library to prepare for a career in cybersecurity and bug bounty hunting.
+Hi, I'm Kaif! I am a second-year Computer Science student currently doing an intensive self-study year at my local library to prepare for a career in cybersecurity and bug bounty hunting.
 
 This is one of my early practice projects in Python. I built this Caesar Cipher tool to understand the absolute basics of cryptography and data encryption. 
 
