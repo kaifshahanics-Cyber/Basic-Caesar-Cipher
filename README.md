@@ -1,16 +1,18 @@
-# Simple Caesar Cipher 🔐
+# Basic Caesar Cipher Encryptor
 
-Hi, I'm Kaif! I am a second-year Computer Science student currently doing an intensive self-study year at my local library to prepare for a career in cybersecurity and bug bounty hunting.
+Welcome to my cryptography learning sandbox! As a student aiming to become a bug bounty hunter and security expert, I know that understanding the absolute basics of data encryption is critical.
 
-This is one of my early practice projects in Python. I built this Caesar Cipher tool to understand the absolute basics of cryptography and data encryption. 
+This project is a manual implementation of the classic Caesar Cipher. I built it without any complex libraries to force myself to understand how computer memory handles letters and numbers.
 
-## What this code does:
-Instead of using complex built-in libraries, I wanted to build the logic from scratch. The code takes a regular message from the user, asks for a "shift number", and then uses Python's `ord()` and `chr()` functions to change the letters into ASCII numbers, shift them, and turn them back into a secret code.
+## What I Learned Building This
 
-## How to use it:
-1. Run the script in your terminal.
-2. Type a message (e.g., "HELLO").
-3. Type a shift number (e.g., 2).
-4. The program will output the encrypted text!
+* **ASCII Mathematics:** I learned how every letter is secretly a number in the computer's memory. By using `ord()` to get the number, adding a shift value, and using `chr()` to turn it back into a letter, I applied basic mathematics directly to coding.
+* **String Manipulation:** I practiced creating empty strings and safely adding new characters to them one by one using simple `for` loops.
+* **Clean Logic:** I kept the variable names incredibly simple and readable so that anyone looking at the code can immediately understand the mathematical flow of the encryption.
 
-Note: I am still learning, so this script currently handles basic shifts. I plan to update it later to handle text wrapping (like looping Z back to A) as my logic building gets stronger!
+## How to Run It
+
+1. Ensure Python is installed on your system.
+2. Open your terminal and run the script:
+```bash
+   python caesar_cipher.py
